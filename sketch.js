@@ -65,6 +65,9 @@ function setup() {
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
   
+  camera.position.x = trex.x
+  camera.position.y = trex.y
+  
   score = 0;
 }
 
